@@ -1,3 +1,7 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.headers {
+  background-color: rgb(0, 145, 255);
+  padding: 25px;
+  margin: -10px;
+  color:whitesmoke
+}
+
+.bruh_span {
+  color: rgb(221, 255, 0);
+}
+
+.name {
+  color: red;
+}
+
+.App input{
+  width: 500px;
+  height: 30px;
+  font-size: larger;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.App input:focus{
+  outline: none;
+}
+
+.App button{
+  transition: 400ms;
+  width: 100px;
+  height: 40px;
+  font-size: larger;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.App button:hover{
+  transition: 400ms;
+  background-color: #bfbfbf;
+
+}
+
+.task h1{
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0px;
+}
+.complete_button{
+  background-color: rgb(41, 214, 41);
+  color: white;
+}
+
+.cancel_button {
+  background-color: rgb(255, 0, 0);
+  color: white;
 }
