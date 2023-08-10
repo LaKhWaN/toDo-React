@@ -31,7 +31,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ````sh
-   git clone https://github.com/LaKhWaN/toDo-React```
+   git clone https://github.com/LaKhWaN/toDo-React
    ````
 
 2. Navigate to the project directory:
